@@ -34,10 +34,11 @@ section {
   background: black;
   position: fixed;
   padding: 10px;
-  margin-top: -150px;
+  margin-top: -100px;
 }
 
 .nav-img {
+  height: 10%;
   display: block;
   margin: 0 auto;
 }
@@ -51,7 +52,7 @@ section {
   font-family: 'henny penny', cursive;
   font-family: 'Quintessential', cursive;
   font-size: 50px;
-  margin-top: 3em;
+  margin-top: 2em;
   color: #2ecc71;
 }
 
