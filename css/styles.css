@@ -1,0 +1,72 @@
+/*hex colors:
+green: #2ecc71
+red: #e74c3c*/
+
+@import url('https://fonts.googleapis.com/css?family=Fredericka+the+Great|Henny+Penny|Quintessential');
+@import url('https://fonts.googleapis.com/css?family=Quintessential');
+@import url('https://fonts.googleapis.com/css?family=Rubik');
+@import url('https://fonts.googleapis.com/css?family=Bad+Script|Berkshire+Swash|Cookie|Give+You+Glory|Merienda|Tangerine');
+
+body {
+  background: url('../images/holiday1.jpeg');
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: 'fredericka the great', cursive;
+}
+
+section {
+  height: 70%;
+  background: #e74c3c;
+}
+
+.background-div {
+  top: 0px;
+  position: fixed;
+  z-index: -1000;
+  width: 100%;
+}
+
+.nav {
+  width: 100%;
+  background: black;
+  position: fixed;
+  padding: 10px;
+  margin-top: -150px;
+}
+
+.nav-img {
+  display: block;
+  margin: 0 auto;
+}
+
+.red-word{
+  color: #e74c3c;
+}
+
+.main-headline {
+  text-align: center;
+  font-family: 'henny penny', cursive;
+  font-family: 'Quintessential', cursive;
+  font-size: 50px;
+  margin-top: 3em;
+  color: #2ecc71;
+}
+
+.img {
+  display: block;
+  margin: 10% auto;
+  width: 50%;
+}
+
+.section-p {
+  color: white;
+  font-family: 'Berkshire Swash', cursive;
+  padding: 5%;
+  font-size: 40px;
+  vertical-align: middle;
+  /*line-height: 60%;*/
+  padding-top: 7%;
+}
